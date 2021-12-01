@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "/data/albums.php";
+require __DIR__ . "/data/albums.php";
 require_once __DIR__ . "/componets/cardAlbum.php"
 //var_dump($albums)
 
@@ -15,7 +15,6 @@ require_once __DIR__ . "/componets/cardAlbum.php"
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
     <title>PHP AJaX DISCHI</title>
 </head>
 <body>
@@ -37,6 +36,5 @@ require_once __DIR__ . "/componets/cardAlbum.php"
     </div>
       </div>
     </div>
-    <script src="main.js"></script>
 </body>
 </html>

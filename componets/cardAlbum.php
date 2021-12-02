@@ -20,8 +20,8 @@ function createCardAlbum($album){
         <div class="card-body">
             <h1 class="card-title text-center "><?php echo strtoupper($albumTitle) ?></h1>
             <div class="card-text text-center">
-                <h5><?php echo strtoupper($albumAuthor) ?></h5>
-                <h5><?php echo strtoupper($albumYear) ?></h5>
+                <h5><?php echo $albumAuthor ?></h5>
+                <h5><?php echo $albumYear ?></h5>
             </div>
         </div>
     </div>

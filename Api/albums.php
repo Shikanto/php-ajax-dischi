@@ -1,6 +1,6 @@
 <?php
 require_once "../data/albums.php";
-//con il DIR non funziona
+//spiegazione DIR lezione 02/12/2021 nella prima mezz'ora
 
 header("Content-Type: application/json");
 
